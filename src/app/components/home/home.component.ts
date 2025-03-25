@@ -9,4 +9,6 @@ import { GreetingComponent } from '../greeting/greeting.component';
 })
 export class HomeComponent {
   sentence = signal('Angular application')
+
+  greetingMessage = signal('This is a greeting message generated in the home component')
 }
