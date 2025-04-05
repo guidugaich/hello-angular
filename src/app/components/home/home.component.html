@@ -1,2 +1,4 @@
 <div>this is the HOME component! {{sentence()}}</div>
-<app-greeting [message]="'message passed from home component'"/>
+<app-greeting [message]="'passad as parameter to app-greeting'"/>
+<input type="text" (keyup)="keyUpHandler($event)">
+<app-counter />

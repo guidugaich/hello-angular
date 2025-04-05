@@ -1,1 +1,9 @@
-<p>counter works!</p>
+<div class="counter">
+  <h2>Counter</h2>
+  <div class="controls">
+    <button (click)="increment()">Increment</button>
+    <button (click)="decrement()">Decrement</button>
+    <button (click)="reset()">Reset</button>
+  </div>
+  <p class="count">Current Count: {{ count() }}</p>
+</div>
