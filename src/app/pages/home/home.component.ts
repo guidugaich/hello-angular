@@ -1,6 +1,6 @@
 import { Component, signal } from '@angular/core';
-import { GreetingComponent } from '../greeting/greeting.component';
-import { CounterComponent } from '../counter/counter.component';
+import { GreetingComponent } from '../../components/greeting/greeting.component';
+import { CounterComponent } from '../../components/counter/counter.component';
 
 @Component({
   selector: 'app-home',
@@ -9,7 +9,7 @@ import { CounterComponent } from '../counter/counter.component';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-  sentence = signal('Angular application')
+  sentence = signal('Angular application for the win');
 
   greetingMessage = signal('This is a greeting message generated in the home component')
 
